@@ -565,10 +565,6 @@ p {
   .descList {
     padding-left: 5px;
   }
-  .diffXsMaxcard {
-    padding: 2px 5px 100px 0px;
-    margin: 0;
-  }
   .exMaterial {
     padding: 3px;
   }
@@ -583,13 +579,6 @@ p {
   .faceIdData {
     width: 100vw;
   }
-  .xsAndMaxHeadding,
-  .xsAndMaxPara,
-  .xsAndMaxlightText,
-  .diffXsAndMaxHeadding,
-  .diffXsAndMaxPara,
-  .everyDecision,
-  .fromtheway,
   .comHead,
   .wrap,
   .exHead {
@@ -599,16 +588,22 @@ p {
   .footerFlex img {
     width: 100%;
   }
-  .xsImage {
-    width: 98%;
+  .xsImage,.xsMaxImage {
+    width: 98% !important;
     height: auto;
   }
-  .xsMaxImage {
-    width: 98%;
-    height: auto;
+  .diffXsMaxcard {
+    padding: 2px 5px 20px 0px;
+    overflow-wrap: anywhere;
+    margin: 0;
   }
   .exHead,
   .faceHeadding {
     overflow-wrap: anywhere;
+  }
+  @media screen and (max-width: 160px) {
+    *{
+      width: 160px !important;
+    }
   }
 }
