@@ -111,13 +111,13 @@
   justify-content: space-evenly;
 }
 .xsImage {
-  width: 105%;
+  width: 103%;
   height: 80%;
 }
 .xsMaxImage {
-  width: 105%;
-  height: 65%;
-  margin-top: 85px;
+  width: 103%;
+  height: 73%;
+  margin-top: 34px;
 }
 .modelName {
   text-align: center;
@@ -237,7 +237,7 @@ p {
     width: 655px;
   }
   .diffXsMaxcard {
-    padding: 0 80px 91px 0;
+    padding: 0 120px 120px 0;
     margin: 0;
   }
   /* 2ndpage */
@@ -330,9 +330,6 @@ p {
   }
   .xsAndMaxlightText {
     width: 333px;
-  }
-  .iphoneXsAndMaxEmpty {
-    display: none;
   }
   /* 2ndpage */
   .diffXsMaxcard {
@@ -472,9 +469,6 @@ p {
   .xsAndMaxlightText {
     width: 330px;
   }
-  .iphoneXsAndMaxEmpty {
-    display: none;
-  }
   /* 2ndpage */
   .diffXsAndMax {
     height: 150vh;
@@ -487,7 +481,7 @@ p {
   .diffXsAndMaxHeadding {
     width: 318px;
     text-align: right;
-    padding: 0px 0px 0 0;
+    padding: 0px 5px 0 0;
   }
   .diffXsAndMaxPara {
     width: 322px;
