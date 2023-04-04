@@ -110,14 +110,17 @@
   font-family: "Ubuntu";
   justify-content: space-evenly;
 }
+.mobileImages div{
+  justify-content: end;
+}
 .xsImage {
-  width: 103%;
+  width: 100%;
   height: 80%;
 }
 .xsMaxImage {
-  width: 103%;
-  height: 73%;
-  margin-top: 34px;
+  width: 100%;
+  height: 75%;
+  padding-bottom: 8px;
 }
 .modelName {
   text-align: center;
