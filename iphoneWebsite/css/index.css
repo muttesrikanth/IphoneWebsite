@@ -1,0 +1,606 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container-fluid {
+  font-family: "Ubuntu";
+  background-color: black;
+  width: 100vw;
+  color: #ffffff;
+}
+/* common */
+.empty {
+  width: 100vw;
+  height: 150px;
+}
+.flexrow {
+  display: flex;
+}
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+.commonbag {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  font-family: "Ubuntu";
+}
+.comHead {
+  color: #eed490;
+  font-weight: 300;
+}
+.comPadding{
+  padding: 10px;
+}
+/* 1stpage */
+.xsAndMax {
+  background-image: url("../images/0fcd8bec5b468c893dd3516ce2d5177e.png");
+  height: 120vh;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.xsAndMaxHeadding {
+  font-size: 65px;
+  margin-top: 60px;
+  width: 600px;
+}
+.xsAndMaxPara {
+  font-size: 25px;
+}
+.xsAndMaxlightText {
+  color: rgba(255, 255, 255, 0.1);
+  font-weight: 100;
+  margin-top: 20px;
+  width: 600px;
+}
+/* 2ndpage */
+.diffXsAndMax {
+  background-image: url("../images/1918d98345e59d0d01ee87ca1b030128.png");
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.diffXsMaxcard {
+  padding: 0 100px 44px 0;
+  margin: 0;
+}
+.diffXsAndMaxHeadding {
+  font-size: 45px;
+  width: 433px;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+.diffXsAndMaxPara {
+  font-size: 15px;
+  width: 433px;
+  text-align: right;
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+/* 3rdpage */
+.description {
+  width: 100vw;
+  padding: 50px;
+  justify-content: center;
+}
+.commonHead {
+  width: 200px;
+  font-size: 30px;
+  font-weight: 300;
+}
+.commonPara {
+  width: 450px;
+  font-weight: 300;
+  text-align: left;
+}
+.descList {
+  list-style-position: inside;
+  padding: 50px 0 0 10px;
+}
+/* 4thpage */
+.mobileImages {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: #ffffff;
+  font-family: "Ubuntu";
+  justify-content: space-evenly;
+}
+.mobileImages div{
+  justify-content: end;
+}
+.xsImage {
+  width: 100%;
+  height: 80%;
+}
+.xsMaxImage {
+  width: 100%;
+  height: 75%;
+  padding-bottom: 8px;
+}
+.modelName {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 20px 0 10px 0;
+}
+.displaySize {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+/* 5thpage */
+.exMaterial {
+  background-image: url("../images/67bd5b492602e5b09bfd6870cc191d1a.png");
+  justify-content: center;
+  padding-left: 50px;
+  margin-top: 50px;
+}
+.exMaterialMain {
+  width: 600px;
+}
+.exHead {
+  font-size: 45px;
+}
+.exSubHead {
+  font-size: 25px;
+}
+.exMaterialDetails {
+  padding-top: 40px;
+  width: 550px;
+  justify-content: center;
+  text-align: left;
+}
+p {
+  word-spacing: 1px;
+}
+/* 6th page */
+.faceIdOuter {
+  height: 120vh;
+  width: 100vw;
+  justify-content: center;
+}
+.faceIdCard {
+  height: 90%;
+  width: 100vw;
+  justify-content: space-between;
+}
+.faceIdData {
+  width: 550px;
+  position: relative;
+  left: 100px;
+  top: -109px;
+}
+.faceHeadding {
+  font-size: 45px;
+  font-weight: 300;
+  padding: 10px 0px 10px 10px;
+}
+.faceSubHead {
+  font-size: 25px;
+  font-weight: 300;
+}
+.faceIdDataImg {
+  background-image: url("../images/aefa4a2923daa7d3b8b6acf030b2478b.jpeg");
+  background-size: cover;
+  height: 80%;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+/* 7thpage */
+.likeIphone {
+  background-image: url("../images/7079c042b613bd4f735e18989b0a030a.png");
+  height: 120vh;
+  justify-content: end;
+  align-items: center;
+}
+.likeIphone h2 {
+  font-size: 65px;
+  margin-top: auto;
+  width: 500px;
+  text-align: center;
+}
+.everyDecision {
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  width: 550px;
+}
+.fromtheway {
+  color: rgba(255, 255, 255, 0.1);
+  font-weight: 100;
+  margin-top: 20px;
+  width: 650px;
+  text-align: center;
+}
+/* page8 */
+.footer {
+  background-size: cover;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.footerFlex {
+  padding: 0 20px;
+}
+.footerFlex img {
+  width: 320px;
+  height: 330px;
+}
+
+/* 1200px */
+@media screen and (min-width: 1200px) {
+  /* 1stpage */
+  .xsAndMaxHeadding {
+    width: 655px;
+  }
+  .diffXsMaxcard {
+    padding: 0 120px 120px 0;
+    margin: 0;
+  }
+  /* 2ndpage */
+  .diffXsAndMaxHeadding {
+    width: 550px;
+  }
+  .diffXsAndMaxPara {
+    width: 550px;
+  }
+  /* 8thpage */
+  .footerFlex img {
+    width: 346px;
+    height: 346px;
+  }
+}
+
+/* 992px */
+@media screen and (max-width: 992px) {
+  /* 1stpage */
+  .xsAndMaxHeadding {
+    width: 450px;
+  }
+  .xsAndMaxlightText {
+    width: 333px;
+  }
+  /* 2ndpage */
+  .diffXsMaxcard {
+    padding: 0 100px 44px 0;
+    margin: 0;
+  }
+  .diffXsAndMaxHeadding {
+    width: 400px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+  }
+  .diffXsAndMaxPara {
+    width: 400px;
+    text-align: right;
+    padding: 20px 0px 0 0;
+    margin: 0;
+  }
+  /* 3rdpage */
+  .commonHead {
+    width: 200px;
+    font-size: 30px;
+  }
+  .commonPara {
+    width: 350px;
+    text-align: left;
+  }
+  .descList {
+    width: 405px;
+    padding: 69px 0 0 0;
+  }
+  /* 4thpage */
+  /* 5thpage */
+  .exMaterial {
+    padding-left: 50px;
+  }
+
+  .exMaterialMain {
+    width: 550px;
+  }
+  .exHead {
+    font-size: 45px;
+  }
+  .exSubHead {
+    font-size: 25px;
+  }
+ 
+  .exMaterialDetails {
+    padding-top: 40px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+  }
+  /* 8thpage */
+  .footerFlex img {
+    width: 240px;
+    height: 350px;
+  }
+}
+/* 768px */
+@media screen and (max-width: 768px) {
+  /* 1stpage */
+  .xsAndMaxHeadding {
+    width: 470px;
+  }
+  .xsAndMaxlightText {
+    width: 333px;
+  }
+  /* 2ndpage */
+  .diffXsMaxcard {
+    padding: 0 70px 44px 0;
+    margin: 0;
+  }
+  .diffXsAndMaxHeadding {
+    width: 561px;
+    text-align: right;
+    padding: 0px 0px 0 110px;
+    margin: 0;
+  }
+  .diffXsAndMaxPara {
+    width: 561px;
+    text-align: right;
+    padding: 20px 0px 0 110px;
+    margin: 0;
+  }
+  /* 3rdpage */
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 10px 40px 40px;
+  }
+  .commonHead,
+  .commonPara,
+  .descList {
+    width: fit-content;
+  }
+  /* 4thpage */
+  .mobileImages {
+    /* margin: 0; */
+    padding: 0;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .xsImage {
+    width: 281px;
+    height: 496px;
+    align-items: center;
+  }
+  .xsMaxImage {
+    width: 261px;
+    height: 496px;
+    margin-top: 0px;
+  }
+  .displaySize {
+    margin-bottom: 80px;
+  }
+  /* 5thpage */
+  .exMaterial {
+    padding-left: 50px;
+    height: 150vh;
+  }
+  .exMaterialMain {
+    width: 340px;
+  }
+  .exHead {
+    color: #eed490;
+    font-size: 45px;
+    font-weight: 300;
+  }
+  .exSubHead {
+    color: #eed490;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 15px 10px;
+  }
+  
+  .exMaterialDetails {
+    padding-top: 0px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  /* 6thpage */
+  .faceIdCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .faceIdData {
+    position: static;
+    padding-left: 50px;
+  }
+  .faceIdDataImg {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  /* 7thpage    */
+  .likeIphone {
+    height: 170vh;
+  }
+  .likeIphone h2 {
+    margin-top: 90px;
+    width: 400px;
+    text-align: center;
+  }
+  .everyDecision {
+    text-align: center;
+    width: 350px;
+  }
+  .fromtheway {
+    margin-top: 20px;
+    width: 350px;
+    text-align: center;
+  }
+  /* 8thpage */
+  .footerFlex {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .footerFlex img {
+    width: 540px;
+    height: 346px;
+  }
+}
+/* 576px */
+@media screen and (max-width: 576px) {
+  /* 1stpage */
+  .xsAndMax {
+    height: 140vh;
+  }
+  .xsAndMaxHeadding {
+    font-size: 50px;
+    width: 300px;
+  }
+  .xsAndMaxlightText {
+    width: 330px;
+  }
+  /* 2ndpage */
+  .diffXsAndMax {
+    height: 150vh;
+  }
+  .diffXsMaxcard {
+    padding: 0 30px 44px 0;
+    margin: 0;
+    /* width: 330px; */
+  }
+  .diffXsAndMaxHeadding {
+    width: 318px;
+    text-align: right;
+    padding: 0px 5px 0 0;
+  }
+  .diffXsAndMaxPara {
+    width: 322px;
+    text-align: right;
+    padding: 20px 0px 0 0;
+    margin: 0;
+    word-spacing: 1px;
+  }
+  /* 3rdpage */
+  /* 4thpage */
+  .xsImage {
+    width: 223px;
+    height: 456px;
+    align-items: center;
+  }
+  .xsMaxImage {
+    width: 199px;
+    height: 405px;
+    margin-top: 0px;
+  }
+  /* 5thpage */
+  .exMaterialMain {
+    width: 300px;
+  }
+  .exMaterialDetails {
+    padding-top: 0px;
+    width: 300px;
+  }
+  /* 6thpage */
+  .faceIdData {
+    width: 300px;
+    padding-left: 0;
+    margin: 0;
+  }
+  .faceIdCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding: 0;
+    margin: 0;
+  }
+  /* 7thpage */
+  .likeIphone {
+    height: 130vh;
+  }
+  .likeIphone h2 {
+    margin-top: 0px;
+    width: 300px;
+    font-size: 50px;
+  }
+  .everyDecision {
+    width: 300px;
+  }
+  .fromtheway {
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  /* 8thpage */
+  .footerFlex {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .footerFlex img {
+    width: 300px;
+    height: 310px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .changesize {
+    padding: 8px;
+  }
+  .descList {
+    padding-left: 5px;
+  }
+  .exMaterial {
+    padding: 3px;
+  }
+  .exMaterialDetails,
+  .exMaterialed,
+  .exMaterial,
+  .exMaterialMain {
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+  }
+  .faceIdData {
+    width: 100vw;
+  }
+  .comHead,
+  .wrap,
+  .exHead {
+    width: fit-content !important;
+    margin: 0px;
+  }
+  .footerFlex img {
+    width: 100%;
+  }
+  .xsImage,.xsMaxImage {
+    width: 98% !important;
+    height: auto;
+  }
+  .diffXsMaxcard {
+    padding: 2px 5px 20px 0px;
+    overflow-wrap: anywhere;
+    margin: 0;
+  }
+  .exHead,
+  .faceHeadding {
+    overflow-wrap: anywhere;
+  }
+  @media screen and (max-width: 160px) {
+    *{
+      width: 160px !important;
+    }
+  }
+}
