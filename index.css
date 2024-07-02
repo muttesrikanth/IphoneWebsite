@@ -37,7 +37,7 @@
 }
 /* 1stpage */
 .xsAndMax {
-  background-image: url("../images/0fcd8bec5b468c893dd3516ce2d5177e.png");
+  background-image: url("./images/0fcd8bec5b468c893dd3516ce2d5177e.png");
   height: 120vh;
   justify-content: flex-start;
   align-items: center;
@@ -59,7 +59,7 @@
 }
 /* 2ndpage */
 .diffXsAndMax {
-  background-image: url("../images/1918d98345e59d0d01ee87ca1b030128.png");
+  background-image: url("./images/1918d98345e59d0d01ee87ca1b030128.png");
   justify-content: flex-end;
   align-items: flex-end;
 }
@@ -135,7 +135,7 @@
 }
 /* 5thpage */
 .exMaterial {
-  background-image: url("../images/67bd5b492602e5b09bfd6870cc191d1a.png");
+  background-image: url("./images/67bd5b492602e5b09bfd6870cc191d1a.png");
   justify-content: center;
   padding-left: 50px;
   margin-top: 50px;
@@ -185,7 +185,7 @@ p {
   font-weight: 300;
 }
 .faceIdDataImg {
-  background-image: url("../images/aefa4a2923daa7d3b8b6acf030b2478b.jpeg");
+  background-image: url("./images/aefa4a2923daa7d3b8b6acf030b2478b.jpeg");
   background-size: cover;
   height: 80%;
   width: 100vw;
@@ -194,7 +194,7 @@ p {
 }
 /* 7thpage */
 .likeIphone {
-  background-image: url("../images/7079c042b613bd4f735e18989b0a030a.png");
+  background-image: url("./images/7079c042b613bd4f735e18989b0a030a.png");
   height: 120vh;
   justify-content: end;
   align-items: center;
